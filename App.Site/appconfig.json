@@ -1,9 +1,0 @@
-﻿{
-  "theme": "Blue",
-  "plugins": [
-    {
-      "name": "CMSPlugin",
-      "author": "百签软件有限公司"
-    }
-  ]
-}
