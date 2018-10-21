@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\AppSoft2.0.IO\App.Repository\obj\Debug\App.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\AppSoft2.0.IO\App.Site\bin\App.Repository.dll
+C:\Users\Administrator\Desktop\AppSoft2.0.IO\App.Site\bin\App.Repository.pdb
+C:\Users\Administrator\Desktop\AppSoft2.0.IO\App.Repository\obj\Debug\App.Repository.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\AppSoft2.0.IO\App.Repository\obj\Debug\App.Repository.csproj.CopyComplete
+C:\Users\Administrator\Desktop\AppSoft2.0.IO\App.Repository\obj\Debug\App.Repository.dll
+C:\Users\Administrator\Desktop\AppSoft2.0.IO\App.Repository\obj\Debug\App.Repository.pdb

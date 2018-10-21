@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>App.RESTful API</name>
+    </assembly>
+    <members>
+        <member name="T:App.RESTful_API.Bootstrapper">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:App.RESTful_API.Bootstrapper.StartRegisterDependencies">
+            <summary>
+             
+            </summary>
+        </member>
+        <member name="T:App.RESTful_API.SwaggerConfig">
+            <summary>
+            API文档接口配置
+            </summary>
+        </member>
+        <member name="M:App.RESTful_API.SwaggerConfig.Register">
+            <summary>
+            注册
+            </summary>
+        </member>
+        <member name="T:App.RESTful_API.WebApiConfig">
+            <summary>
+            API配置
+            </summary>
+        </member>
+        <member name="M:App.RESTful_API.WebApiConfig.Register(System.Web.Http.HttpConfiguration)">
+            <summary>
+            API路由注册
+            </summary>
+            <param name="config"></param>
+        </member>
+        <member name="T:App.RESTful_API.Controllers.UserController">
+            <summary>
+            用户信息
+            </summary>
+        </member>
+        <member name="M:App.RESTful_API.Controllers.UserController.Get">
+            <summary>
+            测试
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:App.RESTful_API.WebApiApplication">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:App.RESTful_API.WebApiApplication.Application_Start">
+            <summary>
+            系统启动进行初始化
+            </summary>
+        </member>
+    </members>
+</doc>

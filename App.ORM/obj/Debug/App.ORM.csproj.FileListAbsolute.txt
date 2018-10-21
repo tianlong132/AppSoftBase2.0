@@ -1,0 +1,9 @@
+C:\Users\Administrator\Desktop\AppSoft2.0.IO\App.ORM\obj\Debug\App.ORM.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\AppSoft2.0.IO\App.ORM\bin\Debug\App.ORM.dll
+C:\Users\Administrator\Desktop\AppSoft2.0.IO\App.ORM\bin\Debug\App.ORM.pdb
+C:\Users\Administrator\Desktop\AppSoft2.0.IO\App.ORM\bin\Debug\SqlSugar.dll
+C:\Users\Administrator\Desktop\AppSoft2.0.IO\App.ORM\bin\Debug\SqlSugar.xml
+C:\Users\Administrator\Desktop\AppSoft2.0.IO\App.ORM\obj\Debug\App.ORM.csproj.CopyComplete
+C:\Users\Administrator\Desktop\AppSoft2.0.IO\App.ORM\obj\Debug\App.ORM.dll
+C:\Users\Administrator\Desktop\AppSoft2.0.IO\App.ORM\obj\Debug\App.ORM.pdb
+C:\Users\Administrator\Desktop\AppSoft2.0.IO\App.ORM\obj\Debug\App.ORM.csprojAssemblyReference.cache

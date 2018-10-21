@@ -1,0 +1,278 @@
+﻿@{
+    ViewBag.Title = "控制台 - AppSoft2.0.IO - 百签软件有限公司";
+    Layout = "~/Areas/Backend/Views/Theme/Blue/Default/_Layout.cshtml";
+}
+@section HeadContent{
+    @Styles.Render("~/AppStyle/Iconfont", "~/AppStyle/wdScrollTab")
+}
+
+<div id="backend-frame" class="winu-position-absolute">
+    <div id="backend-leftbar" class="winu-position-absolute">
+        <div id="backend-logo">
+            <h2>AppSoft.IO</h2>
+        </div>
+        <div id="func-list" class="winu-position-absolute">
+            <div class="func-tree-item winu-display-block" data-module-guid="5b9ce719-f4e7-45b9-9a7e-6a201a91383f">
+                <div class="module-plugin-container">
+                    <div class="module-name">
+                        <span><i class="iconfont icon-WordPress"></i></span><h4 class="winu-display-inline-block">站点管理</h4>
+                    </div>
+                </div>
+                <div class="func-tree-list">
+                    <ul>
+                        <li>
+                            <div class="func-item"><span class="dir-ico"><i class="iconfont icon-iconfontmokuai"></i></span><strong>频道管理</strong><span class="out-in-ico"><i class="iconfont icon-iconfontjiakuang"></i></span></div>
+                            <ul>
+                                <li>
+                                    <div class="func-item"><p class="tree-space"></p><span class="dir-ico"><i class="iconfont icon-iconfontmokuai"></i></span><strong>内容管理</strong><span></span></div>
+                                </li>
+                                <li>
+                                    <div class="func-item"><p class="tree-space"></p><span class="dir-ico"><i class="iconfont icon-iconfontmokuai"></i></span><strong>幻灯片管理</strong><span></span></div>
+                                </li>
+                                <li>
+                                    <div class="func-item"><p class="tree-space"></p><span class="dir-ico"><i class="iconfont icon-iconfontmokuai"></i></span><strong>碎片管理</strong><span></span></div>
+                                </li>
+                                <li>
+                                    <div class="func-item"><p class="tree-space"></p><span class="dir-ico"><i class="iconfont icon-iconfontmokuai"></i></span><strong>其他管理</strong><span></span></div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="func-item"><span class="dir-ico"><i class="iconfont icon-iconfontmokuai"></i></span><strong>友情链接</strong><span></span></div>
+                        </li>
+                        <li>
+                            <div class="func-item"><span class="dir-ico"><i class="iconfont icon-iconfontmokuai"></i></span><strong>留言板</strong><span></span></div>
+                        </li>
+                        <li>
+                            <div class="func-item"><span class="dir-ico"><i class="iconfont icon-iconfontmokuai"></i></span><strong>附件管理</strong><span></span></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="func-tree-item" data-module-guid="421c6542-7170-4c86-b964-094f34973e76">
+                <div class="module-plugin-container">
+                    <div class="module-name">
+                        <span><i class="iconfont icon-liaotian"></i></span><h4 class="winu-display-inline-block">即时通讯</h4>
+                    </div>
+                </div>
+                <div class="func-tree-list">
+                    <ul>
+                        <li>
+                            <div class="func-item"><span class="dir-ico"><i class="iconfont icon-iconfontmokuai"></i></span><strong>会话列表</strong><span></span></div>
+                        </li>
+                        <li>
+                            <div class="func-item"><span class="dir-ico"><i class="iconfont icon-iconfontmokuai"></i></span><strong>赢友圈圈</strong><span></span></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="func-tree-item" data-module-guid="424a396d-b2d7-4512-8878-5fedc40ea5b3">
+                <div class="module-plugin-container">
+                    <div class="module-name">
+                        <span><i class="iconfont icon-jiaoseguanli"></i></span><h4 class="winu-display-inline-block">用户权限</h4>
+                    </div>
+                </div>
+                <div class="func-tree-list">
+                    <ul>
+                        <li>
+                            <div class="func-item"><span class="dir-ico"><i class="iconfont icon-iconfontmokuai"></i></span><strong>用户管理</strong><span></span></div>
+                        </li>
+                        <li>
+                            <div class="func-item"><span class="dir-ico"><i class="iconfont icon-iconfontmokuai"></i></span><strong>角色管理</strong><span></span></div>
+                        </li>
+                        <li>
+                            <div class="func-item"><span class="dir-ico"><i class="iconfont icon-iconfontmokuai"></i></span><strong>用户组管理</strong><span></span></div>
+                        </li>
+                        <li>
+                            <div class="func-item"><span class="dir-ico"><i class="iconfont icon-iconfontmokuai"></i></span><strong>分配权限</strong><span></span></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="func-tree-item" data-module-guid="b31019ca-8e0e-4307-9c2d-1bfef937e921">
+                <div class="module-plugin-container">
+                    <div class="module-name">
+                        <span><i class="iconfont icon-shezhi"></i></span><h4 class="winu-display-inline-block">控制面板</h4>
+                    </div>
+                </div>
+                <div class="func-tree-list">
+                    <ul>
+                        <li>
+                            <div class="func-item"><span class="dir-ico"><i class="iconfont icon-iconfontmokuai"></i></span><strong>系统参数</strong><span></span></div>
+                        </li>
+                        <li>
+                            <div class="func-item"><span class="dir-ico"><i class="iconfont icon-iconfontmokuai"></i></span><strong>模块菜单</strong><span></span></div>
+                        </li>
+                        <li>
+                            <div class="func-item"><span class="dir-ico"><i class="iconfont icon-iconfontmokuai"></i></span><strong>数据备份</strong><span></span></div>
+                        </li>
+                        <li>
+                            <div class="func-item"><span class="dir-ico"><i class="iconfont icon-iconfontmokuai"></i></span><strong>数据维护</strong><span></span></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="backend-topbar" class="winu-position-absolute">
+        <div class="topbar-left">
+            <a id="showModule" title="更多功能"><span><i class="iconfont icon-907gongneng more-menu"></i></span></a>
+            <a id="swipe-layout" title="布局切换"><span><i class="iconfont icon-layouts"></i></span></a>
+        </div>
+        <div class="topbar-right">
+            <a id="exit" href="@Url.Action("Exit", "Entry" )" title="退出管理"><span><i class="iconfont icon-tuichu"></i></span></a>
+            <a id="profile"><span><i class="iconfont icon-gerenziliao" title="个人资料"></i></span></a>
+            <a id="message" title="系统消息"><span><i class="iconfont icon-xiaoxi"></i></span></a>
+        </div>
+    </div>
+    <div id="backend-module" class="winu-position-absolute" data-statu="hide">
+        <ul class="winu-width-100 winu-min-height">
+            <li style="background:#0072c6;" data-module-guid="5b9ce719-f4e7-45b9-9a7e-6a201a91383f">
+                <div class="module-ico">
+                    <i class="iconfont icon-WordPress"></i>
+                </div>
+                <p>站点管理</p>
+            </li>
+            <li style="background:#217346;" data-module-guid="421c6542-7170-4c86-b964-094f34973e76">
+                <div class="module-ico">
+                    <i class="iconfont icon-liaotian"></i>
+                </div>
+                <p>即时通讯</p>
+            </li>
+            <li style="background:#fd7956;" data-module-guid="424a396d-b2d7-4512-8878-5fedc40ea5b3">
+                <div class="module-ico">
+                    <i class="iconfont icon-jiaoseguanli"></i>
+                </div>
+                <p>用户权限</p>
+            </li>
+            <li style="background:#80397b;" data-module-guid="b31019ca-8e0e-4307-9c2d-1bfef937e921">
+                <div class="module-ico">
+                    <i class="iconfont icon-shezhi"></i>
+                </div>
+                <p>控制面板</p>
+            </li>
+        </ul>
+    </div>
+    <div id="backend-right-container" class="winu-position-absolute">
+        <div id="container-tab"></div>
+    </div>
+    <div id="global-refresh" class="winu-position-absolute" onclick="refreshFrame();"><span><i class="iconfont icon-shuaxin"></i></span></div>
+</div>
+@section FootContent{
+
+    @Scripts.Render("~/AppScript/Nicescroll", "~/AppScript/wdScrollTab")
+
+    <script type="text/javascript">
+        var tabpanel;
+        var jcTabs = [
+            '<iframe src="@Url.Action("Main", "Default")" width="100%" height="100%" frameborder="0"></iframe>'
+        ];
+        // 初始化选项卡
+        tabpanel = new TabPanel({
+            renderTo: 'container-tab',
+            width: '100%',
+            height: '100%',
+            border: 'none',
+            active: 0,
+            autoResizable: true,
+            items: [
+                { id: 'console', title: '控制台首页', html: jcTabs[0], closable: false }
+            ]
+        });
+
+        var currentFrame = null;
+        // 刷新frame页面
+        function refreshFrame() {
+            var activeIndex = tabpanel.getActiveIndex();
+            window.frames[activeIndex].window.location.reload(true);
+        }
+
+        // 返回当前frame对象
+        function returnFrameObj() {
+            var activeIndex = tabpanel.getActiveIndex();
+            var $frame = $(window.frames[activeIndex].document);
+            return $frame;
+        }
+
+
+        // 设置更多菜单状态
+        function setMenuStatu(top, easing, statu) {
+            $("#backend-module").animate({
+                top: top
+            }, {
+                easing: easing,
+                duration: 100,
+                complete: function () {
+                    $(this).attr("data-statu", statu);
+                }
+            });
+        }
+
+        $(function () {
+            // 关闭菜单
+            $("*").on({
+                click: function (e) {
+                    e = window.event || e;
+                    var $obj = $(e.srcElement || e.target);
+
+                    if ($obj.is("#backend-module,#backend-module ul")) {
+                    }
+                    else {
+                        var $modules = $("#backend-module");
+                        if ($modules.attr("data-statu") == "show") {
+                            setMenuStatu("-200px", "easeInCirc", "hide");
+                        }
+                    }
+                }
+            });
+
+            // 初始化更多菜单长度
+            var size = $("#backend-module ul").children("li").size();
+            var liWidth = $("#backend-module ul li:eq(0)").outerWidth(true);
+            $("#backend-module ul").width(liWidth * size);
+
+            // 显示更多菜单
+            $("#showModule").on({
+                click: function () {
+                    currentFrame = returnFrameObj();
+                    setMenuStatu(0, "easeOutCirc", "show");
+                }
+            });
+
+            // 滚动条
+            $("#backend-module").niceScroll({ touchbehavior: true, cursorcolor: "#7C7C7C", cursoropacitymax: 0, cursorwidth: 2, grabcursorenabled: false });
+            $(".func-tree-list").niceScroll({ touchbehavior: true, cursorcolor: "#7C7C7C", cursoropacitymax: 0, cursorwidth: 2, grabcursorenabled: false });
+
+            // 左边菜单
+            $(".func-tree-list").on("click", "li .func-item", function (e) {
+                var that = $(this);
+                e = window.event || e;
+                var $obj = $(e.srcElement || e.target);
+                // 判断是否点击伸缩图标
+                if ($($obj.context).is(".out-in-ico,.out-in-ico *")) {
+                    var that = $($obj.context).parent("span.out-in-ico");
+                    var $parent = that.parent(".func-item");
+                    var $ul = $parent.siblings("ul");
+                    if ($ul.children("li").size() > 0) {
+                        if ($ul.is(":visible")) {
+                            $ul.slideUp(100);
+                            that.children("i.iconfont").attr("class", "iconfont icon-iconfontjiakuang");
+                        }
+                        else {
+                            $ul.slideDown(100);
+                            that.children("i.iconfont").attr("class", "iconfont icon-iconfontjiankuang");
+                        }
+                    }
+                }
+                else {
+                }
+            });
+
+            // 模块切换菜单
+            $("#backend-module").on("click", "li", function () {
+                var guid = $(this).attr("data-module-guid");
+                $("#func-list .func-tree-item[data-module-guid='" + guid + "']").addClass("winu-display-block").siblings(".func-tree-item").removeClass("winu-display-block");
+            });
+        });
+    </script>
+}
