@@ -1,0 +1,25 @@
+﻿@using App.Entity
+@{
+    Layout = null;
+
+    List<UserCoreEntity> list = ViewBag.List;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        @foreach (UserCoreEntity item in list)
+        {
+            <h1>@item.Account</h1>
+            <h2>@item.CurrentLoginIPAddress</h2>
+        }
+        结束输出
+    </div>
+</body>
+</html>

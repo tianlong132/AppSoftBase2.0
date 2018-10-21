@@ -1,0 +1,41 @@
+﻿@*
+    /*!
+     * 文件名称：通用布局页
+     * 文件作者：百小僧
+     * 编写日期：2016年02月23日
+     * 版权所有：百签软件有限公司
+     * 企业官网：http://www.baisoft.org
+     * 开源协议：GPL v2 License
+     * 文件描述：一切从简，只为了更懒！
+     */
+*@
+<!DOCTYPE html>
+@*Html属性*@
+<html @RenderSection("HtmlProp", false)>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    @*页面标题*@
+    <title>@ViewBag.Title</title>
+    @*页面作者*@
+    <meta name="author" content="@ViewBag.Author" />
+    @*页面关键字*@
+    <meta name="keywords" content="@ViewBag.Keywords">
+    @*页面描述*@
+    <meta name="description" content="@ViewBag.Description">
+    @*全局样式*@
+    @Scripts.Render("~/AppScript/Pace")
+    @Styles.Render("~/AppStyle/Common", "~/AppStyle/Pace", "~/AppStyle/Backend")
+    @*头部资源*@
+    @RenderSection("HeadContent", false)
+</head>
+@*Body属性*@
+<body @RenderSection("BodyProp", false)>
+    @*内容主体*@
+    @RenderBody()
+    @Scripts.Render("~/AppScript/CommonFull")
+    @Html.ScriptsRenderFormat(new { merge = "true" }, "~/AppScript/Layer")
+    @*底部资源*@
+    @RenderSection("FootContent", false)
+</body>
+</html>
